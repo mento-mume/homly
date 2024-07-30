@@ -1,10 +1,7 @@
+"use client";
 import Image from "next/image";
-import Header from "./components/Header";
+import Button from "./components/Button";
 
 export default function Home() {
-  return (
-    <main>
-      <Header />
-    </main>
-  );
+  return <main>homly</main>;
 }
