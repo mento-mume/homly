@@ -10,6 +10,10 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#2E0855",
+        secondary: "#ED8A09",
+      },
+      fontFamily: {
+        lexend: ["Lexend", "sans-serif"],
       },
     },
   },

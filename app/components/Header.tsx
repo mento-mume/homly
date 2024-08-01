@@ -23,7 +23,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-10 ">
+          <nav className="hidden md:flex space-x-12 ">
             <Link className="text-white hover:text-blue-500" href="/">
               Home
             </Link>
