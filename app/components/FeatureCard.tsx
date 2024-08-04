@@ -9,7 +9,7 @@ interface FeatureCardProps {
 
 const FeatureCard = ({ icon, title, text }: FeatureCardProps) => {
   return (
-    <div className="mx-5 mb-6 px-6 space-y-8 drop-shadow-md">
+    <div className="mx-5 px-6 pt-8 border border-2 rounded-lg pb-[98px] bg-[#FBFBFB] shadow-[#00000012]space-y-6 drop-shadow-lg">
       <div className="flex flex-col items-center justify-center space-y-8">
         <Image src={icon} width={72} height={72} alt="feature icon" />
         <div className="font-lexend gap-y-4 flex flex-col">
