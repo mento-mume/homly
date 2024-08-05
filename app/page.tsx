@@ -15,7 +15,7 @@ export default function Home() {
       <CityScape />
       <Details />
       <FeatureList />
-      {/* <OnboardingProcess /> */}
+      <OnboardingProcess />
     </main>
   );
 }

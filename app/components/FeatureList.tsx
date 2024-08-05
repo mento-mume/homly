@@ -22,7 +22,11 @@ const FeatureList = () => {
   return (
     <div className="bg-primary pt-24 text-white  mt-[120px] ">
       {features.map((feature, index) => (
-        <div key={index} className="flex flex-col mx-5 space-y-4 mb-8">
+        <div
+          key={index}
+          className="flex flex-col mx-5 space-y-4 mb-8"
+          onClick={() => setActive(index)}
+        >
           <Image
             src={feature.icon}
             alt={feature.title}
