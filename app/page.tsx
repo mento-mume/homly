@@ -7,6 +7,8 @@ import CityScape from "./cityScape/page";
 import Details from "./details/pages";
 import FeatureList from "./components/FeatureList";
 import OnboardingProcess from "./components/OnBoardingProcess";
+import Carousel from "./components/Carousel";
+import Testimonials from "./testimonials/page";
 export default function Home() {
   return (
     <main>
@@ -16,6 +18,8 @@ export default function Home() {
       <Details />
       <FeatureList />
       <OnboardingProcess />
+      <Carousel />
+      <Testimonials />
     </main>
   );
 }
