@@ -34,9 +34,9 @@ function AboutUs() {
           <p>Privacy Policy</p>
           <p>Terms of Service</p>
         </div>
-        <div>
+        <div className="flex flex-col space-y-6">
           <h3 className="text-2xl font-bold">contact us</h3>
-          <ContactCard />
+          <ContactCard textColor="text-white" />
         </div>
         <div className="flex flex-col space-y-6">
           <h3 className="text-2xl font-bold">Newsletter</h3>
@@ -53,12 +53,12 @@ function AboutUs() {
                 placeholder="Your Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="flex-1 px-4 py-2 text-gray-700 bg-white outline-none rounded-full"
+                className="flex-none px-4 bg-red py-2 text-gray-700 bg-white outline-none rounded-full"
                 required
               />
               <button
                 type="submit"
-                className="py-3 px-5 bg-primary text-white font-semibold rounded-full hover:bg-primary hover:text-white w-36 h-12 transition-colors "
+                className="py-3 px-5 bg-primary text-white font-semibold rounded-full hover:bg-primary hover:text-white w-36 h-12  "
               >
                 Subscribe
               </button>

@@ -93,7 +93,7 @@ const ContactUs = () => {
       <div>
         <h2 className="text-5xl font-bold text-primary mb-2">Contact Us</h2>
         <p className="text-gray-600 text-xl mb-12">Ready to get started?</p>
-        <ContactCard />
+        <ContactCard textColor="text-primary" />
       </div>
     </section>
   );

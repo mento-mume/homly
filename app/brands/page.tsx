@@ -28,7 +28,6 @@ function Brands() {
             <Image
               src={image.src}
               alt={image.alt}
-              layout="responsive"
               width={350}
               height={83} // Maintain aspect ratio
             />
@@ -40,7 +39,6 @@ function Brands() {
             <Image
               src={image.src}
               alt={image.alt}
-              layout="responsive"
               width={350}
               height={83} // Maintain aspect ratio
             />
