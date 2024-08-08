@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import { Fredoka } from "next/font/google";
 import { Lexend } from "next/font/google";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const fredoka = Fredoka({ subsets: ["latin"] });
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={lexend.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Button from "../components/Button";
+import ContactCard from "../components/ContactCard";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -23,12 +25,14 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="px-6 bg-[#FBFBFB]">
+    <section className="px-6 bg-[#FBFBFB] pt-12 pb-16 flex flex-col space-y-16 md:flex-row">
       <div>
-        <h1>Send us a message</h1>
+        <h1 className="text-3xl text-[#555452] font-semibold mb-16 text-center">
+          Send us a message
+        </h1>
         <form
           onSubmit={handleSubmit}
-          className="max-w-lg mx-auto p-4 bg-white shadow-md rounded-md"
+          className=" p-4 bg-inherit shadow-md rounded-md"
         >
           <div className="mb-4">
             <label
@@ -81,15 +85,16 @@ const ContactUs = () => {
               required
             />
           </div>
-          <button
-            type="submit"
-            className="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-          >
+          <Button variant="primary" size="big">
             Send
-          </button>
+          </Button>
         </form>
       </div>
-      <div>contact</div>
+      <div>
+        <h2 className="text-5xl font-bold text-primary mb-2">Contact Us</h2>
+        <p className="text-gray-600 text-xl mb-12">Ready to get started?</p>
+        <ContactCard />
+      </div>
     </section>
   );
 };

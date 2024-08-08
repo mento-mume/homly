@@ -43,10 +43,11 @@ const Testimonials = () => {
       </div>
 
       <Swiper
-        spaceBetween={40}
+        spaceBetween={10}
+        centeredSlides={true}
         pagination={{ clickable: true }}
         modules={[Pagination]}
-        className="flex items-center"
+        className="mx-auto"
       >
         {TestimonialcardDetails.map((testimonial, index) => (
           <SwiperSlide key={index}>

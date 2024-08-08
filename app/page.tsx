@@ -11,6 +11,7 @@ import Carousel from "./components/Carousel";
 import Testimonials from "./testimonials/page";
 import Team from "./team/page";
 import ContactUs from "./contactus/page";
+import AboutUs from "./AboutUs/page";
 export default function Home() {
   return (
     <main>
@@ -24,6 +25,7 @@ export default function Home() {
       <Testimonials />
       <Team />
       <ContactUs />
+      <AboutUs />
     </main>
   );
 }

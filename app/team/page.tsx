@@ -32,9 +32,9 @@ const Team = () => {
     },
   ];
   return (
-    <section className="pb-24">
-      <h1>Our Team</h1>
-      <div className="flex flex-col md:flex-row">
+    <section className="pb-24 mt-20">
+      <h1 className="text-3xl font-bold text-center">Our Team</h1>
+      <div className="flex flex-col mt-10 md:flex-row">
         {TeamData.map((teamdata, index) => (
           <TeamCard
             key={index}
